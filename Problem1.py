@@ -35,15 +35,17 @@ stdout as specified above. No other output is permitted. You can
 assume the input will be valid. Feel free to use standard libraries to
 assist in sorting.
  
-In the examples below, the text "Input:" and "Output:" are not part
-of the output, and neither are the blank lines.
+
+We modified these constraints to accept the string from an opened text file.
+'''
+
+
+
+
 import sys
 
 # Opens file and creates list from contents
 # using whitespace as entry delineator.
-'''
-
-
 def organize(filename):
     file = open(filename, "r")
     input_list = file.read().split()
