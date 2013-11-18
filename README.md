@@ -9,3 +9,5 @@ with an endgoal of having practical, hands-on knowledge in both Python and the D
 Each competition is overseen by a neutral third-party programmer friend, who grades module functionality, 
 syntax, and efficiency.
 
+All modules are made using Python 2.7.5.
+
